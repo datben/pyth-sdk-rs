@@ -9,7 +9,7 @@ pyth-sdk = { path = "./pyth-sdk", version = "0.8.0" }
 pyth-sdk-solana = { path = "./pyth-sdk-solana", version = "0.10.6" }
 
 solana-program = "3"
-borsh = { version = "*", features = ["derive"] }
+borsh = { version = "1", features = ["derive"] }
 serde = "1.0.219"
 
 [workspace.lints.rust]
